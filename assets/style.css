@@ -1,0 +1,27 @@
+/**
+ * App styles
+ * 
+ * @author Evgeni Sviridenko <paratagas@gmail.com>
+ * @version 0.0.1
+ * @copyright Evgeni Sviridenko 2017
+ */
+
+.checkbox_HTML {
+	margin-left: -80px !important;
+}
+
+.checkbox_jQuery {
+	margin-left: -50px !important;
+}
+
+.checkbox_CSS {
+	margin-left: -50px !important;
+}
+
+.invalidElement {
+	background-color: #ff0000;
+}
+
+.validElement {
+	background-color: #00ff00;
+}

@@ -1,0 +1,37 @@
+{
+    "name": "check",
+    "description": "Test task",
+    "version": "0.0.1",
+    "homepage": "https://github.com/paratagas/check",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/paratagas/check.git"
+    },
+    "author": {
+        "name": "Evgeni Sviridenko",
+        "email": "paratagas@gmail.com",
+        "url": "https://github.com/paratagas"
+    },
+    "tags": [
+        "node.js",
+        "webix",
+        "frontend"
+    ],
+    "main": "node server.js",
+    "scripts": {
+        "nodemon": "nodemon server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.16.0",
+        "express": "^4.14.0",
+        "requestify": "^0.2.4"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.0",
+        "gulp-concat": "^2.6.0",
+        "gulp-uglify": "^1.2.0",
+        "gulp-sourcemaps": "^1.5.2",
+        "nodemon": "^1.11.0"
+    },
+    "license": "GPL-3.0"
+}
